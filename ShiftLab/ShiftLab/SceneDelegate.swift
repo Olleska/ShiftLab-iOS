@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         // Указываем твой стартовый контроллер (сделай его Root)
-        window.rootViewController = ViewController()
+        window.rootViewController = RegistrationViewController()
         self.window = window
         window.makeKeyAndVisible()
     }
