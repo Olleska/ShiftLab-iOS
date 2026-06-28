@@ -57,7 +57,6 @@ class RegistrationViewController: UIViewController {
     }
     private func setup() {
         view.backgroundColor = .white
-        title = "Регистрация"
         setupLayout()
         setupDatePicker()
         setupActions()
